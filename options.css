@@ -1,0 +1,49 @@
+.container{
+	width : 800px;
+	margin : 10px auto;
+	font-size: 16px;
+}
+input{
+	width: 120px;
+	margin: 10px;
+}
+.opt{
+	text-align: right;
+}
+.opt p{
+	display: inline-block;
+	margin: 10px 20px 0 0;
+	cursor: pointer;
+	color: #333;
+}
+
+.info{
+	margin-top: 100px;
+}
+.info .menu p{
+	display: inline-block;
+	cursor: pointer;
+	font-size: 14px;
+	color: #666;
+}
+.info section{
+	display: none;
+}
+.info section img{
+	max-width: 100%;
+}
+.info section.open{
+	display: block;
+}
+.info section p{
+	font-size: 14px;
+	color: #666;
+}
+#tip .item{
+	width: 45%;
+	display: inline-block;
+	margin: 5px;
+}
+#tip .item img{
+	width: 200px;
+}
